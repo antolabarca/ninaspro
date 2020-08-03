@@ -2,7 +2,7 @@
 códigos de ejemplo del curso de programación básica de NiñasPro
 
 -----------------------------------
-## Clases disponibles:
+## Temas disponibles:
 * Ciclos for
 * Ciclos while
 * Arreglos
