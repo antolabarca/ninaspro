@@ -1,9 +1,9 @@
 # Niñas Pro
-examples and excercises from the basic programming course at NiñasPro
+ejemplos y soluciones de ejercicios del curso básico de programación de NiñasPro
 
-*(not 100% up to date)*
+*(no 100% actualizado)*
 
 
-## Subjects available:
-* For cycles
-* C++ arrays and vectors
+## Temas:
+* ciclos for
+* arreglos y vectores en C++
