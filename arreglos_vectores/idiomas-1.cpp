@@ -3,28 +3,34 @@ using namespace std;
 
 int main()
 {
-  int k;
-  cin >> k;
-  string idiomas[k];
+	int N;
+	cin >> N;
+	for (int i = 0; i < N; ++i)
+  	{
+		int k;
+		cin >> k;
+		string idiomas[k];
 
-  for(int i=0; i<k; i++)
-  {
-    cin >> idiomas[i];
-  }
+	  	for(int i=0; i<k; i++)
+	  	{
+	    	cin >> idiomas[i];
+	  	}
 
-  string idioma0=idiomas[0];
-  string idioma=idioma0;
+	  	string idioma0=idiomas[0];
+	  	string idioma=idioma0;
 
-  for(int i=0; i<k; i++)
-  {
-    if(idioma0 != idiomas[i])
-    {
-      idioma="ingles";
-      break;
-    }
-  }
+	  	for(int i=0; i<k; i++)
+	  	{
+	    	if(idioma0 != idiomas[i])
+	    	{
+	      		idioma="ingles";
+	      		break;
+	    	}
+	  	}
 
-  cout << idioma << endl;
+		cout << idioma << endl;
+  	}
+  	
   return 0;
 
 }
