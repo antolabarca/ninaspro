@@ -7,3 +7,4 @@ ejemplos y soluciones de ejercicios del curso básico de programación de Niñas
 ## Temas:
 * ciclos for
 * arreglos y vectores en C++
+* funciones
